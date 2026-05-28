@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\net\\labs\\lab_4\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB24C75C-21D3-6DE3-499B-3095602B234F}|lab_4\\lab_4.csproj|d:\\net\\labs\\lab_4\\lab_4\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB24C75C-21D3-6DE3-499B-3095602B234F}|lab_4\\lab_4.csproj|solutionrelative:lab_4\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB24C75C-21D3-6DE3-499B-3095602B234F}|lab_4\\lab_4.csproj|d:\\net\\labs\\lab_4\\lab_4\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB24C75C-21D3-6DE3-499B-3095602B234F}|lab_4\\lab_4.csproj|solutionrelative:lab_4\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB24C75C-21D3-6DE3-499B-3095602B234F}|lab_4\\lab_4.csproj|d:\\net\\labs\\lab_4\\lab_4\\converters\\weatherconditiontoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB24C75C-21D3-6DE3-499B-3095602B234F}|lab_4\\lab_4.csproj|solutionrelative:lab_4\\converters\\weatherconditiontoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB24C75C-21D3-6DE3-499B-3095602B234F}|lab_4\\lab_4.csproj|d:\\net\\labs\\lab_4\\lab_4\\models\\weatherinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB24C75C-21D3-6DE3-499B-3095602B234F}|lab_4\\lab_4.csproj|solutionrelative:lab_4\\models\\weatherinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB24C75C-21D3-6DE3-499B-3095602B234F}|lab_4\\lab_4.csproj|d:\\net\\labs\\lab_4\\lab_4\\models\\weathertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB24C75C-21D3-6DE3-499B-3095602B234F}|lab_4\\lab_4.csproj|solutionrelative:lab_4\\models\\weathertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB24C75C-21D3-6DE3-499B-3095602B234F}|lab_4\\lab_4.csproj|d:\\net\\labs\\lab_4\\lab_4\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB24C75C-21D3-6DE3-499B-3095602B234F}|lab_4\\lab_4.csproj|solutionrelative:lab_4\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherInfo.cs",
+              "DocumentMoniker": "D:\\net\\labs\\lab_4\\lab_4\\Models\\WeatherInfo.cs",
+              "RelativeDocumentMoniker": "lab_4\\Models\\WeatherInfo.cs",
+              "ToolTip": "D:\\net\\labs\\lab_4\\lab_4\\Models\\WeatherInfo.cs",
+              "RelativeToolTip": "lab_4\\Models\\WeatherInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T01:26:17.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\labs\\lab_4\\lab_4\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "lab_4\\MainPage.xaml.cs",
+              "ToolTip": "D:\\net\\labs\\lab_4\\lab_4\\MainPage.xaml.cs",
+              "RelativeToolTip": "lab_4\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T01:21:49.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\net\\labs\\lab_4\\lab_4\\AppShell.xaml",
+              "RelativeDocumentMoniker": "lab_4\\AppShell.xaml",
+              "ToolTip": "D:\\net\\labs\\lab_4\\lab_4\\AppShell.xaml",
+              "RelativeToolTip": "lab_4\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-28T01:15:05.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\net\\labs\\lab_4\\lab_4\\MainPage.xaml",
+              "RelativeDocumentMoniker": "lab_4\\MainPage.xaml",
+              "ToolTip": "D:\\net\\labs\\lab_4\\lab_4\\MainPage.xaml",
+              "RelativeToolTip": "lab_4\\MainPage.xaml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-28T01:14:53.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherConditionToImageConverter.cs",
+              "DocumentMoniker": "D:\\net\\labs\\lab_4\\lab_4\\Converters\\WeatherConditionToImageConverter.cs",
+              "RelativeDocumentMoniker": "lab_4\\Converters\\WeatherConditionToImageConverter.cs",
+              "ToolTip": "D:\\net\\labs\\lab_4\\lab_4\\Converters\\WeatherConditionToImageConverter.cs",
+              "RelativeToolTip": "lab_4\\Converters\\WeatherConditionToImageConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T01:13:47.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherType.cs",
+              "DocumentMoniker": "D:\\net\\labs\\lab_4\\lab_4\\Models\\WeatherType.cs",
+              "RelativeDocumentMoniker": "lab_4\\Models\\WeatherType.cs",
+              "ToolTip": "D:\\net\\labs\\lab_4\\lab_4\\Models\\WeatherType.cs",
+              "RelativeToolTip": "lab_4\\Models\\WeatherType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T01:13:15.122Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

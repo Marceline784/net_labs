@@ -1,24 +1,25 @@
-﻿namespace lab_4
+﻿using lab_4.Models;
+
+namespace lab_4;
+
+public partial class MainPage : ContentPage
 {
-    public partial class MainPage : ContentPage
+    WeatherInfo weatherData = new WeatherInfo { Condition = WeatherType.Sunny };
+
+    public MainPage()
     {
-        int count = 0;
+        InitializeComponent();
+        BindingContext = weatherData;
+    }
 
-        public MainPage()
+    private void OnRefreshClicked(object sender, EventArgs e)
+    {
+        if (WeatherPicker.SelectedItem != null)
         {
-            InitializeComponent();
-        }
-
-        private void OnCounterClicked(object? sender, EventArgs e)
-        {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            if (Enum.TryParse(WeatherPicker.SelectedItem.ToString(), out WeatherType newCondition))
+            {
+                weatherData.Condition = newCondition;
+            }
         }
     }
 }
