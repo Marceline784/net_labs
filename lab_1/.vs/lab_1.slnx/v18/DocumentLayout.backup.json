@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\net\\lab_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53D7AD95-C7B1-44C8-8EA1-6A230F988CF6}|lab_1\\lab_1.csproj|d:\\net\\lab_1\\lab_1\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{53D7AD95-C7B1-44C8-8EA1-6A230F988CF6}|lab_1\\lab_1.csproj|solutionrelative:lab_1\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53D7AD95-C7B1-44C8-8EA1-6A230F988CF6}|lab_1\\lab_1.csproj|d:\\net\\lab_1\\lab_1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53D7AD95-C7B1-44C8-8EA1-6A230F988CF6}|lab_1\\lab_1.csproj|solutionrelative:lab_1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53D7AD95-C7B1-44C8-8EA1-6A230F988CF6}|lab_1\\lab_1.csproj|d:\\net\\lab_1\\lab_1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{53D7AD95-C7B1-44C8-8EA1-6A230F988CF6}|lab_1\\lab_1.csproj|solutionrelative:lab_1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53D7AD95-C7B1-44C8-8EA1-6A230F988CF6}|lab_1\\lab_1.csproj|d:\\net\\lab_1\\lab_1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53D7AD95-C7B1-44C8-8EA1-6A230F988CF6}|lab_1\\lab_1.csproj|solutionrelative:lab_1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53D7AD95-C7B1-44C8-8EA1-6A230F988CF6}|lab_1\\lab_1.csproj|d:\\net\\lab_1\\lab_1\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53D7AD95-C7B1-44C8-8EA1-6A230F988CF6}|lab_1\\lab_1.csproj|solutionrelative:lab_1\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53D7AD95-C7B1-44C8-8EA1-6A230F988CF6}|lab_1\\lab_1.csproj|d:\\net\\lab_1\\lab_1\\lab_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{53D7AD95-C7B1-44C8-8EA1-6A230F988CF6}|lab_1\\lab_1.csproj|solutionrelative:lab_1\\lab_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "D:\\net\\lab_1\\lab_1\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "lab_1\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "D:\\net\\lab_1\\lab_1\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "lab_1\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-05-28T00:04:42.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\net\\lab_1\\lab_1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "lab_1\\App.xaml.cs",
+              "ToolTip": "D:\\net\\lab_1\\lab_1\\App.xaml.cs",
+              "RelativeToolTip": "lab_1\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T00:02:30.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\net\\lab_1\\lab_1\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "lab_1\\AppShell.xaml.cs",
+              "ToolTip": "D:\\net\\lab_1\\lab_1\\AppShell.xaml.cs",
+              "RelativeToolTip": "lab_1\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T00:02:23.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\lab_1\\lab_1\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "lab_1\\MainPage.xaml.cs",
+              "ToolTip": "D:\\net\\lab_1\\lab_1\\MainPage.xaml.cs",
+              "RelativeToolTip": "lab_1\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T00:01:06.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\net\\lab_1\\lab_1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "lab_1\\MainPage.xaml",
+              "ToolTip": "D:\\net\\lab_1\\lab_1\\MainPage.xaml",
+              "RelativeToolTip": "lab_1\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-28T00:01:01.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "lab_1",
+              "DocumentMoniker": "D:\\net\\lab_1\\lab_1\\lab_1.csproj",
+              "RelativeDocumentMoniker": "lab_1\\lab_1.csproj",
+              "ToolTip": "D:\\net\\lab_1\\lab_1\\lab_1.csproj",
+              "RelativeToolTip": "lab_1\\lab_1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-28T00:00:34.232Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

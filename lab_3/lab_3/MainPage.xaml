@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab_3.MainPage"
+             BackgroundColor="#F3F4F6">
+
+    <Grid RowDefinitions="Auto, Auto, Auto, *, Auto, Auto, Auto"
+          ColumnDefinitions="*, *"
+          Padding="40"
+          ColumnSpacing="10"
+          RowSpacing="10">
+
+        <Label Text="Bill" VerticalOptions="Center" TextColor="Black" Grid.Row="0" Grid.Column="0"/>
+        <Entry x:Name="billInput" Placeholder="Enter Amount" PlaceholderColor="Gray" TextColor="Black" Keyboard="Numeric" 
+               TextChanged="OnAmountChanged" Grid.Row="0" Grid.Column="1"/>
+
+        <Label Text="Tip" TextColor="Black" Grid.Row="1" Grid.Column="0"/>
+        <Label x:Name="tipOutput" Text="0.00" TextColor="Black" VerticalOptions="Center" Grid.Row="1" Grid.Column="1"/>
+
+        <Label Text="Total" TextColor="Black" Grid.Row="2" Grid.Column="0"/>
+        <Label x:Name="totalOutput" Text="0.00" TextColor="Black" VerticalOptions="Center" Grid.Row="2" Grid.Column="1"/>
+
+        <Label Text="Tip Percentage" VerticalOptions="End" HorizontalOptions="Start" TextColor="Black" Grid.Row="3" Grid.Column="0"/>
+        <Label x:Name="tipPercent" Text="15%" VerticalOptions="End" HorizontalOptions="End" TextColor="Black" Grid.Row="3" Grid.Column="1"/>
+
+        <Slider x:Name="tipPercentSlider" Minimum="0" Maximum="100" Value="15" ValueChanged="OnSliderValueChanged" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+        <Button Text="15%" Clicked="OnNormalTip" Margin="5" Grid.Row="5" Grid.Column="0"/>
+        <Button Text="20%" Clicked="OnGenerousTip" Margin="5" Grid.Row="5" Grid.Column="1"/>
+
+        <Button x:Name="roundDown" Clicked="OnRoundDownClicked" Margin="5" Text="Round Down" Grid.Row="6" Grid.Column="0"/>
+        <Button x:Name="roundUp" Clicked="OnRoundUpClicked" Margin="5" Text="Round Up" Grid.Row="6" Grid.Column="1"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab_2.MainPage"
+             BackgroundColor="#F3F4F6">
+
+    <ContentPage.Resources>
+        <Style x:Key="HeaderStyle" TargetType="Label">
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="TextColor" Value="#1F2937" />
+        </Style>
+    </ContentPage.Resources>
+
+    <VerticalStackLayout 
+        Padding="{OnPlatform Android=20, WinUI=50}" 
+        Spacing="20"
+        VerticalOptions="Center">
+
+        <Frame CornerRadius="20" HasShadow="True" Padding="20" BackgroundColor="White">
+            <VerticalStackLayout Spacing="15">
+                <Label Text="Мій Профіль" Style="{StaticResource HeaderStyle}" HorizontalOptions="Center" />
+
+                <Entry x:Name="NameEntry" 
+       Placeholder="Введіть ваше ім'я" 
+       PlaceholderColor="Gray" 
+       TextColor="Black" 
+       BackgroundColor="Transparent" />
+
+                <Button x:Name="SaveBtn" 
+                        Text="Зберегти дані" 
+                        Clicked="OnSaveClicked"
+                        BackgroundColor="#4F46E5" 
+                        TextColor="White" 
+                        CornerRadius="10" />
+
+                <Label x:Name="MessageLabel" 
+                       Text="Очікування..." 
+                       HorizontalOptions="Center" 
+                       TextColor="#6B7280" />
+            </VerticalStackLayout>
+        </Frame>
+
+    </VerticalStackLayout>
+</ContentPage>
